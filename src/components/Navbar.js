@@ -10,7 +10,7 @@ import { useCart, useDispatchCart } from "./contextReducer";
 
 function Navbar() {
   let data = useCart();
-  let dispatch = useDispatchCart();
+  // let dispatch = useDispatchCart();
   const [cartView,setCartView] = useState(false);
   const navigate = useNavigate();
   const handleLogout =() =>{
