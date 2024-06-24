@@ -6,7 +6,7 @@ import {
   import { Badge } from "react-bootstrap";
 import Model from "../Model";
 import Cart from "./Cart";
-import { useCart, useDispatchCart } from "./contextReducer";
+import { useCart } from "./contextReducer";
 
 function Navbar() {
   let data = useCart();
